@@ -1,0 +1,338 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "ParcialNeumaticos",
+    "dateExported": "2023-10-09T01:58:07.733Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "23f6f696-6a4d-4189-ad4b-5a70a6d78d23",
+            "colId": "b166dbcb-3d75-449d-bd07-3406d3ac26af",
+            "containerId": "",
+            "name": "altaNeumaticosJSOn",
+            "url": "http://localhost/ejercicios/ParcialNeu/AltaNeumaticoJSON.php",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-10-07T18:55:06.362Z",
+            "modified": "2023-10-08T12:36:52.032Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "marca",
+                    "value": "",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "medidas",
+                    "value": "",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "precio",
+                    "value": "",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "marca",
+                        "value": "pepe"
+                    },
+                    {
+                        "name": "medidas",
+                        "value": "99"
+                    },
+                    {
+                        "name": "precio",
+                        "value": "78542"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "6604881d-e4b8-4a9f-af03-6d244b773a6d",
+            "colId": "b166dbcb-3d75-449d-bd07-3406d3ac26af",
+            "containerId": "",
+            "name": "verificarNeumaticoJSON",
+            "url": "http://localhost/ejercicios/ParcialNeu/verificarNeumaticoJSON.php",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-10-07T19:16:16.479Z",
+            "modified": "2023-10-07T19:30:48.184Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "marca",
+                        "value": "kodak"
+                    },
+                    {
+                        "name": "medidas",
+                        "value": "55"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "58df2d06-da35-4dc5-ae89-fe329ad19539",
+            "colId": "b166dbcb-3d75-449d-bd07-3406d3ac26af",
+            "containerId": "",
+            "name": "ListadoNeumaticosJSON",
+            "url": "http://localhost/ejercicios/ParcialNeu/listadoNeumaticosJSON.php",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-10-08T12:29:20.729Z",
+            "modified": "2023-10-08T12:30:13.270Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e776fdbc-e467-462e-aa55-d9bef4631ba1",
+            "colId": "b166dbcb-3d75-449d-bd07-3406d3ac26af",
+            "containerId": "",
+            "name": "agregarNeumaticoSinFoto",
+            "url": "http://localhost/ejercicios/ParcialNeu/agregarNeumaticoSinFoto.php",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2023-10-08T14:07:53.062Z",
+            "modified": "2023-10-08T14:24:44.807Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "neumatico_json",
+                        "value": "{\"marca\":\"volgs\",\"medidas\":\"110R\",\"precio\":9992}"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "8f930819-4485-4f48-b434-45cd988833f5",
+            "colId": "b166dbcb-3d75-449d-bd07-3406d3ac26af",
+            "containerId": "",
+            "name": "listadoNeumaticoBD",
+            "url": "http://localhost/ejercicios/ParcialNeu/listadoNeumaticosBD.php?tabla=mostrar",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2023-10-08T14:08:43.625Z",
+            "modified": "2023-10-08T23:41:56.323Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "tabla",
+                    "value": "mostrar",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "6c411e5c-13c4-4180-a2e2-2f511b496254",
+            "colId": "b166dbcb-3d75-449d-bd07-3406d3ac26af",
+            "containerId": "",
+            "name": "eliminarNeumaticoBD",
+            "url": "http://localhost/ejercicios/ParcialNeu/eliminarNeumaticoBD.php",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2023-10-08T21:18:50.049Z",
+            "modified": "2023-10-08T21:49:05.470Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "neumatico_json",
+                        "value": "{\"marca\":\"volgs\",\"medidas\":\"110R\",\"precio\":9992,\"id\":5,\"pathFoto\":\"algo\"}"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "88133650-8665-4f3b-bbe6-37972e038a3f",
+            "colId": "b166dbcb-3d75-449d-bd07-3406d3ac26af",
+            "containerId": "",
+            "name": "modificarNeumaticoBD",
+            "url": "http://localhost/ejercicios/ParcialNeu/modificarNeumaticoBD.php",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2023-10-08T21:51:50.365Z",
+            "modified": "2023-10-08T21:55:54.242Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "neumatico_json",
+                        "value": "{\"marca\":\"sprinter\",\"medidas\":\"84R\",\"precio\":9992,\"id\":3,\"pathFoto\":\"algo\"}"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "806a3a98-2df0-4091-98b5-50f11ddd4649",
+            "colId": "b166dbcb-3d75-449d-bd07-3406d3ac26af",
+            "containerId": "",
+            "name": "verificarNeumaticoBD",
+            "url": "http://localhost/ejercicios/ParcialNeu/verificarNeumaticoBD.php",
+            "method": "POST",
+            "sortNum": 120000,
+            "created": "2023-10-08T22:22:56.060Z",
+            "modified": "2023-10-08T22:24:30.216Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "obj_neumatico",
+                        "value": "{\"marca\":\"kodak\",\"medidas\":\"99R\"}"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "a4c0ac63-db6e-461f-b5ba-4b3ce0ea220d",
+            "colId": "b166dbcb-3d75-449d-bd07-3406d3ac26af",
+            "containerId": "",
+            "name": "agregarNeumaticoBD",
+            "url": "http://localhost/ejercicios/ParcialNeu/agregarNeumaticoBD.php",
+            "method": "POST",
+            "sortNum": 130000,
+            "created": "2023-10-08T22:34:26.295Z",
+            "modified": "2023-10-09T00:59:05.438Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "marca",
+                        "value": "CheBolu"
+                    },
+                    {
+                        "name": "medidas",
+                        "value": "11R"
+                    },
+                    {
+                        "name": "precio",
+                        "value": "9999"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "foto",
+                        "value": "d:\\Descargas\\logooo.png"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "8bd523f6-7040-4881-ad67-e5f36d452419",
+            "colId": "b166dbcb-3d75-449d-bd07-3406d3ac26af",
+            "containerId": "",
+            "name": "eliminarNeumaticoBDFoto",
+            "url": "http://localhost/ejercicios/ParcialNeu/eliminarNeumaticoBDFoto.php",
+            "method": "POST",
+            "sortNum": 140000,
+            "created": "2023-10-09T00:05:58.286Z",
+            "modified": "2023-10-09T01:15:44.214Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "neumatico_json",
+                        "value": "{\"marca\":\"sprinter\",\"medidas\":\"84R\",\"precio\":9992,\"id\":11,\"pathFoto\":\"algo\"}"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "dc70e882-932a-455c-a32c-dfca0dadc62c",
+            "colId": "b166dbcb-3d75-449d-bd07-3406d3ac26af",
+            "containerId": "",
+            "name": "modificarNeumaticoBDFoto",
+            "url": "http://localhost/ejercicios/ParcialNeu/modificarNeumaticoBDFoto.php",
+            "method": "POST",
+            "sortNum": 150000,
+            "created": "2023-10-09T00:56:49.154Z",
+            "modified": "2023-10-09T01:05:13.255Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "neumatico_json",
+                        "value": "{\"marca\":\"nada\",\"medidas\":\"84R\",\"precio\":9992,\"id\":14}"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "foto",
+                        "value": "d:\\Descargas\\3.jpeg"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "560b7356-c614-4399-86d2-2e563b24e08d",
+            "colId": "b166dbcb-3d75-449d-bd07-3406d3ac26af",
+            "containerId": "",
+            "name": "mostradoBorradosJSON",
+            "url": "http://localhost/ejercicios/ParcialNeu/mostrarBorradosJSON.php",
+            "method": "GET",
+            "sortNum": 160000,
+            "created": "2023-10-09T01:17:54.471Z",
+            "modified": "2023-10-09T01:36:31.216Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d88f09e6-bc4b-4510-b92b-d226f6d3ae35",
+            "colId": "b166dbcb-3d75-449d-bd07-3406d3ac26af",
+            "containerId": "",
+            "name": "mostrarFotosModificados.php",
+            "url": "http://localhost/ejercicios/ParcialNeu/mostrarFotosModificado.php",
+            "method": "GET",
+            "sortNum": 170000,
+            "created": "2023-10-09T01:44:10.450Z",
+            "modified": "2023-10-09T01:44:40.719Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

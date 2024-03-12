@@ -1,0 +1,4 @@
+id:13,marca:sprinter,medidas:84R,precio:9992,pathFoto:13.sprinter.borrado.025041.jpg
+id:16,marca:sprinter,medidas:84R,precio:9992,pathFoto:16.sprinter.borrado.031402png
+id:15,marca:sprinter,medidas:84R,precio:9992,pathFoto:15.sprinter.borrado.031527.jpg
+id:11,marca:sprinter,medidas:84R,precio:9992,pathFoto:11.sprinter.borrado.031544.png

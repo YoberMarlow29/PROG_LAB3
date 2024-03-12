@@ -1,0 +1,3 @@
+patente:gddgd,marca:sfsfsf,color:#a3c7a3,precio:33535,foto:gddgd.sfsfsf.modificado.161044.png
+patente:FF42D,marca:KHEA,color:#7ab62f,precio:64669,foto:FF42D.KHEA.modificado.161314.jpg
+patente:ÑE56ER,marca:ferrari_modif23,color:#ed0707,precio:9999,foto:ÑE56ER.ferrari_modif23.modificado.161324.jpg

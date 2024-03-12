@@ -1,0 +1,4 @@
+patente:PP133IL,marca:citroen,color:#341da5,precio:454,foto:PP133IL.borrado.160406.jpg
+patente:FF42D,marca:duki,color:#7ab62f,precio:64669,foto:FF42D.borrado.161223.jpg
+patente:ANN3E3D,marca:lujan,color:#0dd0d3,precio:646,foto:ANN3E3D.borrado.161228.jpg
+patente:gddgd,marca:sfsfsf,color:#a3c7a3,precio:33535,foto:gddgd.borrado.161232.jpg
